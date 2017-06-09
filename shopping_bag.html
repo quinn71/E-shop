@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="Author" content="Vladislav Logvinenko">
+
+    <link rel="stylesheet" href="css/cssMain.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+
+    <script src="js/navigation.js"></script>
+    <script src="js/shopping_bag_functions.js"></script>
+    <script src="js/shopping_bag.js"></script>
+
+    <title>Shopping Bag</title>
+</head>
+<body>
+<header>
+    <div class="brand-row clearfix">
+        <div class="wrapper">
+            <a href="./start.html" class="logo mobile-hidden"><img src="img/logo.png" alt=""></a>
+            <a href="./start.html" class="logo tablet-hidden desktop-hidden mobile-visible"><img src="img/logo-mobile.png" alt=""></a>
+            <div class="user-data">
+                <a href="#" class="sign-up mobile-hidden">E-mail sign up</a>
+                <a href="./shopping_bag.html" class="bag"><img src="img/icon_bag.png" class="mobile-hidden" alt="">Bag
+                    <span class="total-price"></span><span class="total-quantity"></span></a>
+            </div>
+        </div>
+    </div>
+    <div class="navigation-row">
+        <img class="menu-icon desktop-hidden tablet-hidden mobile-visible" src="img/icon_menu.png" alt="">
+        <img class="close-icon desktop-hidden tablet-hidden mobile-hidden" src="img/icon_close.png" alt="">
+        <nav class="mobile-hidden">
+            <div class="wrapper">
+                <a href="./catalog.html">Women</a>
+                <a href="#">Men</a>
+                <a href="#">Handbags</a>
+                <a href="#">Accessories</a>
+                <a href="#">Sale</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">Clearance</a>
+                <a href="#">Store Locator</a>
+                <form action="">
+                    <input type="search" placeholder="Style Name" class="mobile-visible tablet-hidden">
+                    <img src="img/icon_search.png" alt="">
+                </form>
+            </div>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="shopping_bag-title">
+        <div class="wrapper">
+            <span>Shopping bag</span>
+        </div>
+    </section>
+    <section class="shopping_bag">
+        <div class="wrapper">
+            <div class="items_to_buy-outer">
+            </div>
+        </div>
+    </section>
+    <section class="draw-info">
+        <p>You've qualified for Free UK Next Day Delivery on your order. Don't forget to enter the code nexday at
+            checkout</p>
+    </section>
+    <section class="buy-info">
+        <div class="wrapper">
+            <div class="buy-info-outer">
+                <div class="empty">
+                    <span>Empty bag</span>
+                </div>
+                <button type="button" class="button buy_now-button ">Buy now</button>
+                <div class="total">
+                    <span>Total cost</span><br>
+                    <span class="total-cost">&pound; 1 640.50</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--<form class="confirm-message buy-message"  action="">
+        <label>Buy now?</label>
+        <button type="button" name="OK" value="OK">OK!</button>
+        <button type="button" name="Cancel" value="Cancel">NO.</button>
+    </form>
+
+    <form class="confirm-message remove-message"  action="">
+        <label>Buy now?</label>
+        <button type="button" name="OK" value="OK">OK!</button>
+        <button type="button" name="Cancel" value="Cancel">NO.</button>
+    </form>-->
+</main>
+
+<footer>
+    <div class="footer__top-outer clearfix">
+        <div class="wrapper">
+            <div class="menu">
+                <div class="list list-quick-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Store locator</a></li>
+                        <li><a href="#">Gift cards</a></li>
+                        <li><a href="#">Size guide</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="list list-customer-care">
+                    <h3>Customer Care</h3>
+                    <ul>
+                        <li><a href="#">Customer service</a></li>
+                        <li><a href="#">Track my order</a></li>
+                        <li><a href="#">Return policy</a></li>
+                        <li><a href="#">Shipping &amp; delivery</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contacts">
+                <div class="questions">
+                    <h3>Questions</h3>
+                    <a href="#"><img src="img/icon_twitter-grey.png" alt="">Tweet us <b>@template</b></a>
+                </div>
+                <div class="phone">
+                    <h3>Order by phone</h3>
+                    <span>8-800-409-47-12</span>
+                </div>
+                <p class="tablet-hidden mobile-hidden">We have our own delivery service which<br>operates in 23 major
+                    European cities. Delivery<br>time - 3-5 days</p>
+                <div class="socials mobile-hidden">
+                    <img src="img/icon_facebook.png" alt="">
+                    <img src="img/icon_twitter-blue.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom-outer">
+        <div class="wrapper">
+            <div class="sharing-info">
+                <div class="flex-item flex-item-left">
+                    <div class="copyright">&copy; 2010-2015, The Template Group inc.</div>
+                    <div class="share"><span>Share </span><a href="#">1 437</a></div>
+                </div>
+                <div class="flex-item flex-item-right other-info">
+                    <a href="#">Legal notice</a>
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Site map</a>
+                    <div class="socials desktop-hidden tablet-hidden mobile-visible">
+                        <img src="img/icon_facebook.png" alt="">
+                        <img src="img/icon_twitter-blue.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

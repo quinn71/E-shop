@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="Author" content="Vladislav Logvinenko">
+
+    <link rel="stylesheet" href="css/cssMain.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+
+    <script src="js/carousel.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/shopping_bag_functions.js"></script>
+    <script src="js/storageEvent.js"></script>
+
+    <title>Title</title>
+</head>
+<body>
+<header>
+    <div class="brand-row clearfix">
+        <div class="wrapper">
+            <a href="#" class="logo mobile-hidden"><img src="img/logo.png" alt=""></a>
+            <a href="#" class="logo tablet-hidden desktop-hidden mobile-visible"><img src="img/logo-mobile.png" alt=""></a>
+            <div class="user-data">
+                <a href="#" class="sign-up mobile-hidden">E-mail sign up</a>
+                <a href="./shopping_bag.html" class="bag"><img src="img/icon_bag.png" class="mobile-hidden" alt="">Bag
+                    <span class="total-price"></span><span class="total-quantity"></span></a>
+            </div>
+        </div>
+    </div>
+    <div class="navigation-row">
+        <img class="menu-icon desktop-hidden tablet-hidden mobile-visible" src="img/icon_menu.png" alt="">
+        <img class="close-icon desktop-hidden tablet-hidden mobile-hidden" src="img/icon_close.png" alt="">
+        <nav class="mobile-hidden">
+            <div class="wrapper">
+                <a href="./catalog.html">Women</a>
+                <a href="#">Men</a>
+                <a href="#">Handbags</a>
+                <a href="#">Accessories</a>
+                <a href="#">Sale</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">Clearance</a>
+                <a href="#">Store Locator</a>
+                <form action="">
+                    <input type="search" placeholder="Style Name" class="mobile-visible">
+                    <img src="img/icon_search.png" alt="">
+                </form>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="promo_block">
+        <div class="carousel">
+            <a href="./catalog.html"><div class="carousel-item carousel-item-clothes active"></div></a>
+            <a href="./catalog.html"><div class="carousel-item carousel-item-ads"></div></a>
+            <a href="./item_details.html"><div class="carousel-item carousel-item-boots"></div></a>
+            <div class="carousel-navigation">
+                <button type="button" class="scroll-button slide-1 checked"></button>
+                <button type="button" class="scroll-button slide-2"></button>
+                <button type="button" class="scroll-button slide-3"></button>
+                <button type="button" class="scroll-button slide-4"></button>
+            </div>
+        </div>
+    </section>
+    <section class="banners">
+        <div class="banners-outer clearfix">
+            <div class="banner banner-boots">
+                <a href="./item_details.html">
+                    <div class="text-outer">
+                    <h2>Nike Red</h2>
+                    <p>New</p>
+                    </div>
+                </a>
+            </div>
+            <div class="banner banner-woman tablet-hidden mobile-hidden">
+                <a href="./catalog.html">
+                    <div class="text-outer">
+                        <h2>Caps &amp; Hats</h2>
+                        <p>Sale -50%</p>
+                    </div>
+                </a>
+            </div>
+            <div class="banner banner-bag desktop-hidden mobile-hidden tablet-visible">
+                <div class="text-outer">
+                    <h2>Sale</h2>
+                    <p>-70%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="new_arrivals">
+        <div class="wrapper">
+            <h1>New arrivals</h1>
+            <div class="clothes">
+                <a class="clothes__item clothes__item-1">
+                    <div class="image-outer"><img src="img/straight_leg_jeans.png" alt=""></div>
+                    <h4>Straight Leg Jeans</h4>
+                    <p>&pound;55.00</p>
+                </a>
+                <a class="clothes__item clothes__item-2">
+                    <div class="image-outer"><img src="img/boyfriend_t-shirt.png" alt=""></div>
+                    <h4>Boyfriend T-Shirt with Bohemian Print</h4>
+                    <p>&pound;34.25</p>
+                </a>
+                <a class="clothes__item  mobile-hidden">
+                    <div class="image-outer"><img src="img/knee_jean.png" alt=""></div>
+                    <h4>Only Busted Knee Jean</h4>
+                    <p>&pound;140.50</p>
+                </a>
+                <a class="clothes__item clothes__item-4 tablet-hidden mobile-hidden">
+                    <div class="image-outer"><img src="img/skinny_jeans.png" alt=""></div>
+                    <h4>Only Skinny Jeans</h4>
+                    <p>&pound;12.75</p>
+                </a>
+            </div>
+            <a href="#" class="button all_arrivals-button">All arrivals</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer__top-outer clearfix">
+        <div class="wrapper">
+            <div class="menu">
+                <div class="list list-quick-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Store locator</a></li>
+                        <li><a href="#">Gift cards</a></li>
+                        <li><a href="#">Size guide</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="list list-customer-care">
+                    <h3>Customer Care</h3>
+                    <ul>
+                        <li><a href="#">Customer service</a></li>
+                        <li><a href="#">Track my order</a></li>
+                        <li><a href="#">Return policy</a></li>
+                        <li><a href="#">Shipping &amp; delivery</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contacts">
+                <div class="questions">
+                    <h3>Questions</h3>
+                    <a href="#"><img src="img/icon_twitter-grey.png" alt="">Tweet us <b>@template</b></a>
+                </div>
+                <div class="phone">
+                    <h3>Order by phone</h3>
+                    <span>8-800-409-47-12</span>
+                </div>
+                <p class="tablet-hidden mobile-hidden">We have our own delivery service which<br>operates in 23 major
+                European cities. Delivery<br>time - 3-5 days</p>
+                <div class="socials mobile-hidden">
+                    <img src="img/icon_facebook.png" alt="">
+                    <img src="img/icon_twitter-blue.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom-outer">
+        <div class="wrapper">
+            <div class="sharing-info">
+                <div class="flex-item flex-item-left">
+                    <div class="copyright">&copy; 2010-2015, The Template Group inc.</div>
+                    <div class="share"><span>Share </span><a href="#">1 437</a></div>
+                </div>
+                <div class="flex-item flex-item-right other-info">
+                    <a href="#">Legal notice</a>
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Site map</a>
+                    <div class="socials desktop-hidden tablet-hidden mobile-visible">
+                        <img src="img/icon_facebook.png" alt="">
+                        <img src="img/icon_twitter-blue.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

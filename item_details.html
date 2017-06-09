@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="Author" content="Vladislav Logvinenko">
+
+    <link rel="stylesheet" href="css/cssMain.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+
+    <title>Item Details</title>
+
+    <script src="js/navigation.js"></script>
+    <script src="js/shopping_bag_functions.js"></script>
+    <script src="js/itemAdding.js"></script>
+    <script src="js/photo_changer.js"></script>
+</head>
+<body>
+<header>
+    <div class="brand-row clearfix">
+        <div class="wrapper">
+            <a href="./start.html" class="logo mobile-hidden"><img src="img/logo.png" alt=""></a>
+            <a href="./start.html" class="logo tablet-hidden desktop-hidden mobile-visible"><img src="img/logo-mobile.png" alt=""></a>
+            <div class="user-data">
+                <a href="#" class="sign-up mobile-hidden">E-mail sign up</a>
+                <a href="./shopping_bag.html" class="bag"><img src="img/icon_bag.png" class="mobile-hidden" alt="">Bag
+                    <span class="total-price"></span><span class="total-quantity"></span></a>
+            </div>
+        </div>
+    </div>
+    <div class="navigation-row">
+        <img class="menu-icon desktop-hidden tablet-hidden mobile-visible" src="img/icon_menu.png" alt="">
+        <img class="close-icon desktop-hidden tablet-hidden mobile-hidden" src="img/icon_close.png" alt="">
+        <nav class="mobile-hidden">
+            <div class="wrapper">
+                <a href="./catalog.html">Women</a>
+                <a href="#">Men</a>
+                <a href="#">Handbags</a>
+                <a href="#">Accessories</a>
+                <a href="#">Sale</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">Clearance</a>
+                <a href="#">Store Locator</a>
+                <form action="">
+                    <input type="search" placeholder="Style Name" class="mobile-visible">
+                    <img src="img/icon_search.png" alt="">
+                </form>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="back-to-catalog">
+        <div class="wrapper">
+            <a href="./catalog.html">< Back to catalog</a>
+        </div>
+    </section>
+    <section class="item-details">
+        <div class="wrapper">
+            <div class="photos-outer">
+                <img src="img/item_suit-1.png" alt="" class="photo photo-main">
+                <div class="thumbnails-outer">
+                    <img src="img/item_suit-1.png" alt="" class="photo photo-thumbnail">
+                    <img src="img/item_suit-3.png" alt="" class="photo photo-thumbnail">
+                    <img src="img/item_suit-2.png" alt="" class="photo photo-thumbnail">
+                </div>
+            </div>
+            <div class="item-description">
+                <h2>Dark classic fit suit</h2>
+                <p>Featuring fine Italian wool, this elegant suit has pick-stitch edging, cascade buttons at the cuffs
+                    and a subtle stripe pattern throughout.
+                <div class="price"><span>&pound;180.60</span></div>
+                <form action="">
+                    <div class="size-buttons">
+                        <span>Size:</span>
+                        <input type="radio" name="size" id="uk-52" value="UK 52" checked><label for="uk-52">UK 52</label>
+                        <input type="radio" name="size" id="uk-54" value="UK 54"><label for="uk-54">UK 54</label>
+                        <input type="radio" name="size" id="uk-56" value="UK 56"><label for="uk-56">UK 56</label>
+                    </div>
+                    <br>
+                    <div class="color-buttons">
+                        <span>Color:</span>
+                        <input type="radio" name="color" id="black" value="Black" checked><label for="black">Black</label>
+                        <input type="radio" name="color" id="blue" value="Blue"><label for="blue">Blue</label>
+                    </div>
+                    <button type="button" class="button add-to-bag-button">Add to Bag</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="banners-outer">
+        <div class="banner banner-adidas">
+            <div class="text-outer">
+                <h2>Adidas Blue</h2>
+                <p>For men</p>
+            </div>
+        </div>
+        <div class="banner banner-right_half mobile-hidden">
+            <div class="banner banner-jeans mobile-hidden">
+                <div class="text-outer">
+                    <h2>Repair Patches</h2>
+                    <p>&pound; 150.50</p>
+                </div>
+            </div>
+            <div class="banner banner-bag mobile-hidden tablet-hidden">
+                <div class="text-outer">
+                    <h2>Sale</h2>
+                    <p>-70%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer__top-outer clearfix">
+        <div class="wrapper">
+            <div class="menu">
+                <div class="list list-quick-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Store locator</a></li>
+                        <li><a href="#">Gift cards</a></li>
+                        <li><a href="#">Size guide</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="list list-customer-care">
+                    <h3>Customer Care</h3>
+                    <ul>
+                        <li><a href="#">Customer service</a></li>
+                        <li><a href="#">Track my order</a></li>
+                        <li><a href="#">Return policy</a></li>
+                        <li><a href="#">Shipping &amp; delivery</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contacts">
+                <div class="questions">
+                    <h3>Questions</h3>
+                    <a href="#"><img src="img/icon_twitter-grey.png" alt="">Tweet us <b>@template</b></a>
+                </div>
+                <div class="phone">
+                    <h3>Order by phone</h3>
+                    <span>8-800-409-47-12</span>
+                </div>
+                <p class="tablet-hidden mobile-hidden">We have our own delivery service which<br>operates in 23 major
+                    European cities. Delivery<br>time - 3-5 days</p>
+                <div class="socials mobile-hidden">
+                    <img src="img/icon_facebook.png" alt="">
+                    <img src="img/icon_twitter-blue.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom-outer">
+        <div class="wrapper">
+            <div class="sharing-info">
+                <div class="flex-item flex-item-left">
+                    <div class="copyright">&copy; 2010-2015, The Template Group inc.</div>
+                    <div class="share"><span>Share </span><a href="#">1 437</a></div>
+                </div>
+                <div class="flex-item flex-item-right other-info">
+                    <a href="#">Legal notice</a>
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Site map</a>
+                    <div class="socials desktop-hidden tablet-hidden mobile-visible">
+                        <img src="img/icon_facebook.png" alt="">
+                        <img src="img/icon_twitter-blue.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
